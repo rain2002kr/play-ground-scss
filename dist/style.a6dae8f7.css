@@ -1,0 +1,33 @@
+.container {
+  width: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(3, 120px); }
+  .container .item {
+    width: 100px;
+    background-color: tomato;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .container .item:hover {
+      background-color: lightgreen; }
+  .container .item:nth-child(6) {
+    align-self: start;
+    width: 10px; }
+  .container .item:nth-child(3) {
+    align-self: flex-end; }
+
+.header {
+  background: red; }
+  .header .box {
+    width: 30px;
+    height: 30px;
+    background-color: lightgreen;
+    font-size: 10px;
+    font-weight: 700; }
+
+
+/*# sourceMappingURL=/style.a6dae8f7.css.map */

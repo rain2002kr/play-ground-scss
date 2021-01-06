@@ -1,0 +1,23 @@
+.container {
+  width: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(3, 120px); }
+  .container .item {
+    width: 100px;
+    width: 100px;
+    background-color: tomato;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .container .item:nth-child(6) {
+    align-self: start;
+    width: 10px; }
+  .container .item:nth-child(3) {
+    align-self: flex-end; }
+
+
+/*# sourceMappingURL=/style.97fcb138.css.map */
