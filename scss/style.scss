@@ -35,9 +35,19 @@ $main-color:red;
 .header{
     background:  $main-color;
     .box{
+        $size:30px;
+
         width: 30px;
         height: 30px;
-        background-color: lightgreen;
+        margin: calc(10px*2);
+        
+        @if ($size > 30px){
+            background-color: lightgreen;
+        }@else {
+            background-color: yellow;
+        }
+
+        
         font: {
             size:10px;
             weight:700;
